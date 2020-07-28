@@ -1,0 +1,22 @@
+{
+    "name": "AfterBytesss",
+    "short_name": "AfterByterrr",
+    "description": "Website de AfterByte",
+    "icons": [
+        {
+            "src": "/statics/iogym_logo.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+
+        {
+            "src": "/statics/iogym_logo.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/",
+    "display": "fullscreen",
+    "theme_color": "#B12A34",
+    "background_color": "#B12A34"
+}
