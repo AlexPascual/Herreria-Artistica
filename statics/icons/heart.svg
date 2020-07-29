@@ -1,3 +1,55 @@
-<svg class="bi bi-heart" width="1em" height="1em" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" d="M10 4.748l-.717-.737C7.6 2.281 4.514 2.878 3.4 5.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.837-3.362.314-4.385-1.114-2.175-4.2-2.773-5.883-1.043L10 4.748zM10 17C-5.333 6.868 5.279-1.04 9.824 3.143c.06.055.119.112.176.171a3.12 3.12 0 01.176-.17C14.72-1.042 25.333 6.867 10 17z" clip-rule="evenodd"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="heart.svg"
+   id="svg4"
+   version="1.1"
+   viewBox="0 0 20 20">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg4"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:cy="10"
+     inkscape:cx="10"
+     inkscape:zoom="42.5"
+     showgrid="false"
+     id="namedview6"
+     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <path
+     id="path2"
+     d="M10 3.22l-.61-.6a5.5 5.5 0 0 0-7.78 7.77L10 18.78l8.39-8.4a5.5 5.5 0 0 0-7.78-7.77l-.61.61z" />
+  <path
+     id="path835"
+     d="M 5.7032908,14.453036 C 1.1686103,9.9145296 1.2294442,9.9780689 0.91836026,9.4553202 0.55844805,8.8505205 0.31794856,8.2034944 0.19812732,7.5176471 0.1343966,7.1528574 0.11229131,6.4680268 0.15176191,6.0812285 0.38918892,3.7545252 2.0588164,1.8339407 4.3205075,1.2858903 4.7968002,1.1704756 5.0460913,1.1423948 5.6,1.141765 c 0.5448452,-6.195e-4 0.7467386,0.019539 1.2074642,0.1205634 0.7797836,0.1709844 1.624153,0.5787099 2.2508513,1.0868812 0.090309,0.073229 0.3349386,0.299908 0.5436219,0.5037316 0.2086831,0.2038235 0.388077,0.3705882 0.3986536,0.3705882 0.01058,0 0.205358,-0.1828806 0.432849,-0.4064014 0.570784,-0.560824 0.978984,-0.8610665 1.545844,-1.1370121 0.5252,-0.2556655 1.147513,-0.4431269 1.710156,-0.5151562 0.362276,-0.046378 1.040306,-0.045977 1.39759,8.278e-4 1.738671,0.2277673 3.246489,1.2551205 4.109201,2.799808 0.67477,1.2081756 0.852236,2.6974553 0.485567,4.0748403 -0.203441,0.7642235 -0.609152,1.527524 -1.135349,2.1360352 -0.123097,0.142353 -2.096459,2.130336 -4.38525,4.417741 l -4.1614381,4.158919 z"
+     style="fill:#e3170a;stroke-width:0.0235294;fill-opacity:1" />
 </svg>
