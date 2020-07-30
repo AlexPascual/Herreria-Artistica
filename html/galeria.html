@@ -7,13 +7,15 @@
     <link rel="stylesheet" href="../css/bootstrap.css">
     <script type="text/javascript" src="../js/jquery-3.4.1.js"></script>
     <script type="text/javascript" src="../js/bootstrap.js"></script>
+    <script type="text/javascript" src="../js/eskju.jquery.scrollflow.js"></script>
+    <script type="text/javascript"src="../js/jquery.instagramFeed.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   </head>
   <body class="d-flex flex-column h-100">
     <main role="main" class="flex-shrink-0">
 
 
-      <nav class="navbar navbar-expand-md navbar-dark bar-blue">
+      <nav class="navbar navbar-expand-md navbar-dark bar-blue sticky-top">
         <a class="navbar-brand" href="#">LOGO</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
@@ -33,7 +35,7 @@
                 <a class="nav-link" href="servicios.html">Servicios</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="galeria.html">Galería</a>
+                <a class="nav-link" href="#">Galería</a>
             </li>
             <li class="nav-item active">
                 <a class="nav-link" href="contacto.html">Contacto</a>
@@ -43,14 +45,49 @@
       </nav>
 
 
-      <div class="container-fluid">
+      <div class="container-fluid pl-0 pr-0">
         <!-- PAGE CONTENT -->
+
+        <div class="text-center text-light mb-4" style="background-color: #0131AC;">
+          <h3 class="pt-2"><b>Galeria</b></h3>
+          <p class="pb-3">Ve algunos de nuestros trabajos y productos.</p>
+        </div>
+
+        <div class="container-fluid">
+          <div id="instagram-feed1">
+
+          </div>
+          <script>
+          (function($){
+            $(window).on('load', function(){
+              $.instagramFeed({
+                'username': 'herreria_y_vidrieria_artistica',
+                'container': "#instagram-feed1",
+                'display_profile': false,
+                'display_biography': true,
+                'display_gallery': true,
+                'callback': null,
+                'styling': true,
+                'items': 21,
+                'items_per_row': 3,
+                'margin': 1,
+                'lazy_load': true,
+                'on_error': console.error
+              });
+            });
+          })(jQuery);
+          </script>
+        </div>
 
 
       </div>
 
     </main>
 
+    <div class="bg-warning text-center alert mb-0 mt-2">
+      <h4 class="d-none d-lg-block"><br>Síguenos en <a href="https://www.instagram.com/herreria_y_vidrieria_artistica/?igshid=1vqqyc2vq5obj"><b>Instagram</b></a> para ver más.</h4>
+      <small class="d-lg-none">Síguenos en <a href="https://www.instagram.com/herreria_y_vidrieria_artistica/?igshid=1vqqyc2vq5obj"><b>Instagram</b></a> para ver más.</small>
+    </div>
 
 
     <footer class="footer mt-auto bar-blue">
@@ -114,8 +151,12 @@
             </div>
 
             <div class="row justify-content-center mt-2 mb-4">
-              <img src="../statics/icons/facebook.svg" class="white-icon mr-2" width="50px">
-              <img src="../statics/icons/instagram.svg" class="white-icon ml-2" width="50px">
+              <a href="https://web.facebook.com/herreriayvidrieriaartistica/?_rdc=1&_rdr">
+                <img src="../statics/icons/facebook.svg" class="white-icon-hoverable mr-2" width="50px">
+              </a>
+              <a href="https://www.instagram.com/herreria_y_vidrieria_artistica/?igshid=1vqqyc2vq5obj">
+                <img src="../statics/icons/instagram.svg" class="white-icon-hoverable ml-2" width="50px">
+              </a>
             </div>
           </div>
 
@@ -123,5 +164,16 @@
         </div>
       </div>
     </footer>
+    <div class="floating-icons justify-content-center">
+      <div class="bg-warning icon-tooltip border border-danger">
+        <div class="text-center" role="alert">
+          <p class="pt-2"><b>¡Envíe un WhatsApp!</b></p>
+
+        </div>
+      </div>
+      <a href="https://wa.me/523414363155">
+        <img src="../statics/icons/whatsapp.svg" class="animated-icon" alt="whatsapp">
+      </a>
+    </div>
   </body>
 </html>

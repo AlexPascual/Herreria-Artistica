@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="../css/bootstrap.css">
     <script type="text/javascript" src="../js/jquery-3.4.1.js"></script>
     <script type="text/javascript" src="../js/bootstrap.js"></script>
+    <script type="text/javascript" src="../js/eskju.jquery.scrollflow.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   </head>
   <body class="d-flex flex-column h-100">
     <main role="main" class="flex-shrink-0">
 
 
-      <nav class="navbar navbar-expand-md navbar-dark bar-blue">
+      <nav class="navbar navbar-expand-md navbar-dark bar-blue sticky-top">
         <a class="navbar-brand" href="#">LOGO</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
@@ -30,7 +31,7 @@
                 <a class="nav-link" href="nosotros.html">Nosotros</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="servicios.html">Servicios</a>
+                <a class="nav-link" href="#">Servicios</a>
             </li>
             <li class="nav-item active">
                 <a class="nav-link" href="galeria.html">Galería</a>
@@ -114,8 +115,12 @@
             </div>
 
             <div class="row justify-content-center mt-2 mb-4">
-              <img src="../statics/icons/facebook.svg" class="white-icon mr-2" width="50px">
-              <img src="../statics/icons/instagram.svg" class="white-icon ml-2" width="50px">
+              <a href="https://web.facebook.com/herreriayvidrieriaartistica/?_rdc=1&_rdr">
+                <img src="../statics/icons/facebook.svg" class="white-icon-hoverable mr-2" width="50px">
+              </a>
+              <a href="https://www.instagram.com/herreria_y_vidrieria_artistica/?igshid=1vqqyc2vq5obj">
+                <img src="../statics/icons/instagram.svg" class="white-icon-hoverable ml-2" width="50px">
+              </a>
             </div>
           </div>
 
@@ -123,5 +128,16 @@
         </div>
       </div>
     </footer>
+    <div class="floating-icons justify-content-center">
+      <div class="bg-warning icon-tooltip border border-danger">
+        <div class="text-center" role="alert">
+          <p class="pt-2"><b>¡Envíe un WhatsApp!</b></p>
+
+        </div>
+      </div>
+      <a href="https://wa.me/523414363155">
+        <img src="../statics/icons/whatsapp.svg" class="animated-icon" alt="whatsapp">
+      </a>
+    </div>
   </body>
 </html>

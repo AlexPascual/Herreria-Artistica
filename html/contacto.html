@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="../css/bootstrap.css">
     <script type="text/javascript" src="../js/jquery-3.4.1.js"></script>
     <script type="text/javascript" src="../js/bootstrap.js"></script>
+    <script type="text/javascript" src="../js/eskju.jquery.scrollflow.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   </head>
   <body class="d-flex flex-column h-100">
     <main role="main" class="flex-shrink-0">
 
 
-      <nav class="navbar navbar-expand-md navbar-dark bar-blue">
+      <nav class="navbar navbar-expand-md navbar-dark bar-blue sticky-top">
         <a class="navbar-brand" href="#">LOGO</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
@@ -36,17 +37,66 @@
                 <a class="nav-link" href="galeria.html">Galería</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="contacto.html">Contacto</a>
+                <a class="nav-link" href="#">Contacto</a>
             </li>
           </ul>
         </div>
       </nav>
 
 
-      <div class="container-fluid">
-        <!-- PAGE CONTENT -->
 
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d469.59608453923244!2d-103.46329900000005!3d19.679872000000024!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb3536b00a0a22a99!2sHerreria%20Artistica!5e0!3m2!1ses-419!2sus!4v1596067504807!5m2!1ses-419!2sus" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
+      <div class="bg-warning text-center alert mb-0">
+        <div class="d-none d-lg-block">
+          <h5 class="pt-4 scrollflow -slide-top">Herrería y Vidriería Artística</h5>
+          <p class="scrollflow -slide-top">AV. OBISPO SERAFÍN VÁZQUEZ ELIZALDE #639 COL. BUGAMBILIAS, CP. 49093 <br> CD. GUZMÁN, JALISCO, MÉXICO.</p>
+        </div>
+
+        <div class="d-lg-none scrollflow -slide-bottom pb-3">
+          <p class="pt-4"><b>Herrería y Vidriería Artística</b> </p>
+          <small>AV. OBISPO SERAFÍN VÁZQUEZ ELIZALDE #639 COL. BUGAMBILIAS, CP. 49093 <br> CD. GUZMÁN, JALISCO, MÉXICO.</small>
+        </div>
+      </div>
+
+      <div class="row text-center mr-0">
+        <div class="col mt-4 mb-3 scrollflow -pop">
+          <h2>Contacto</h2>
+          <p>Puede comunicarse con nosotros por medio de nuestras redes sociales, teléfono, WhatsApp o correo electrónico.<br>
+            Nos aseguraremos de responderle a la mayor brevedad posible.
+          </p>
+        </div>
+      </div>
+
+      <div class="row text-center mr-0 mb-3">
+        <div class="col-6 col-md-3 scrollflow -slide-top">
+          <img class="contact-icon" src="../statics/icons/telephone.svg" width="60px">
+          <p class="pt-4"><b>Tel.</b> (341) 413 6952</p>
+        </div>
+        <div class="col-6 col-md-3 scrollflow -slide-top">
+          <a href="https://wa.me/523414363155">
+            <img class="contact-icon" src="../statics/icons/whatsapp-fill.svg" width="60px">
+          </a>
+          <p class="pt-4"><b>Cel.</b> 341 436 3155</p>
+        </div>
+        <div class="col-6 col-md-3 scrollflow -slide-top">
+          <a href="https://web.facebook.com/herreriayvidrieriaartistica/?_rdc=1&_rdr">
+            <img class="contact-icon" src="../statics/icons/facebook.svg" width="60px">
+          </a>
+          <p class="d-none d-lg-block pt-4">@herreriayvidrieriaartistica</p>
+          <small class="d-lg-none">@herreriayvidrieriaartistica</small>
+        </div>
+        <div class="col-6 col-md-3 scrollflow -slide-top">
+          <a href="https://www.instagram.com/herreria_y_vidrieria_artistica/?igshid=1vqqyc2vq5obj">
+            <img class="contact-icon" src="../statics/icons/instagram.svg" width="60px">
+          </a>
+          <p class="d-none d-lg-block pt-4">@herreria_y_vidrieria_artistica</p>
+          <small class="d-lg-none">@herreria_y_vidrieria_artistica</small>
+        </div>
+        <div class="col scrollflow -slide-top">
+          <img class="contact-icon" src="../statics/icons/envelope-fill.svg" width="60px">
+          <p class="pt-2">herreria.artistica@hotmail.com</p>
+        </div>
       </div>
 
     </main>
@@ -114,8 +164,12 @@
             </div>
 
             <div class="row justify-content-center mt-2 mb-4">
-              <img src="../statics/icons/facebook.svg" class="white-icon mr-2" width="50px">
-              <img src="../statics/icons/instagram.svg" class="white-icon ml-2" width="50px">
+              <a href="https://web.facebook.com/herreriayvidrieriaartistica/?_rdc=1&_rdr">
+                <img src="../statics/icons/facebook.svg" class="white-icon-hoverable mr-2" width="50px">
+              </a>
+              <a href="https://www.instagram.com/herreria_y_vidrieria_artistica/?igshid=1vqqyc2vq5obj">
+                <img src="../statics/icons/instagram.svg" class="white-icon-hoverable ml-2" width="50px">
+              </a>
             </div>
           </div>
 
@@ -123,5 +177,16 @@
         </div>
       </div>
     </footer>
+    <div class="floating-icons justify-content-center">
+      <div class="bg-warning icon-tooltip border border-danger">
+        <div class="text-center" role="alert">
+          <p class="pt-2"><b>¡Envíe un WhatsApp!</b></p>
+
+        </div>
+      </div>
+      <a href="https://wa.me/523414363155">
+        <img src="../statics/icons/whatsapp.svg" class="animated-icon" alt="whatsapp">
+      </a>
+    </div>
   </body>
 </html>

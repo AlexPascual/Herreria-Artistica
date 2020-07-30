@@ -5,16 +5,31 @@
     <title>Inicio - Herrería y Vidrieria Artística</title>
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
     <script type="text/javascript" src="../js/jquery-3.4.1.js"></script>
     <script type="text/javascript" src="../js/bootstrap.js"></script>
+    <script type="text/javascript" src="../js/eskju.jquery.scrollflow.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Inicio - Herrería y Vidriería Artística"/>
+    <meta property="og:description" content="Sitio web de Herrería y Vidriería Artística" />
+    <meta property="og:image" content="https://eccf77d97d1b.ngrok.io/statics/img/logo.jpeg" />
+    <meta property="og:site_name" content="Herrería y Vidriería Artística"/>
+
+    <meta name="twitter:title" content="Conoce a Herrería y Vidriería Artística">
+    <meta name="twitter:description" content="Sitio web de Herrería y Vidriería Artística">
+    <meta name="twitter:image" content="https://eccf77d97d1b.ngrok.io/statics/img/logo.jpeg">
+    <meta name="twitter:site" content="Herreria y Vidrieria Artistica">
+    <meta name="twitter:creator" content="AfterByte 2020">
   </head>
   <body class="d-flex flex-column h-100">
     <!-- Begin page content -->
     <main role="main" class="flex-shrink-0">
 
 
-      <nav class="navbar navbar-expand-md navbar-dark bar-blue">
+      <nav class="navbar navbar-expand-md navbar-dark bar-blue sticky-top">
         <a class="navbar-brand" href="#">LOGO</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
@@ -25,7 +40,7 @@
 
           <ul class="navbar-nav  mt-2 mb-2">
             <li class="nav-item active">
-                <a class="nav-link" href="inicio.html">Inicio <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
                 <a class="nav-link" href="nosotros.html">Nosotros</a>
@@ -46,21 +61,127 @@
 
       <div class="container-fluid">
         <div class="row">
-          <div class="col-12 col-md-6 pr-0 pl-0">
+          <div class="col-6 col-md-6 pr-0 pl-0">
             <img src="../statics/img/logo.jpeg" class="img-fluid" alt="Responsive image">
           </div>
-          <div class="col-12 col-md-6 pl-0 pr-0">
+          <div class="col-6 col-md-6 pl-0 pr-0">
             <img src="../statics/img/banner.jpeg" class="img-fluid" alt="Responsive image">
           </div>
         </div>
 
-        <div class="row">
-          <img src="../statics/img/taller.jpeg" class="img-fluid" alt="Responsive image">
+      </div>
+
+      <div class="overview scrollflow -slide-top">
+        <img src="../statics/img/taller.jpeg" class="overviewImage" alt="Responsive image">
+        <div class="overviewButton">
+          <button type="button" class="d-none d-lg-block btn btn-warning btn-lg overviewButton scrollflow -slide-bottom"><b>Conozcanos.</b></button>
+          <button type="button" class="d-lg-none btn btn-warning btn-sm overviewButton scrollflow -slide-bottom"><small><b>Conozcanos.</b></small>.</button>
+        </div>
+        <div class="overviewText">
+          <h3 class="d-none d-lg-block scrollflow -pop font-weight-bolder">El mejor servicio de herreria y otros servicios en la ciudad.</h3>
+          <h5 class="d-lg-none scrollflow -pop">El mejor servicio de herreria y otros de la ciudad.</h5>
         </div>
       </div>
 
-    </main>
 
+      <div id="carouselExampleControls" class="carousel slide scrollflow -slide-right d-none d-lg-block" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <img src="../statics/img/slider1.jpg" class="col-4 d-block w-100 pr-0 pl-0" alt="...">
+              <img src="../statics/img/slider2.jpg" class="col-4 d-block w-100 pr-0 pl-0" alt="...">
+              <img src="../statics/img/slider3.jpg" class="col-4 d-block w-100 pr-0 pl-0" alt="...">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <img src="../statics/img/slider4.jpg" class="col-4 d-block w-100 pr-0 pl-0" alt="...">
+              <img src="../statics/img/slider5.jpg" class="col-4 d-block w-100 pr-0 pl-0" alt="...">
+              <img src="../statics/img/slider6.jpg" class="col-4 d-block w-100 pr-0 pl-0" alt="...">
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+
+      <div id="carousel2Controls" class="carousel slide scrollflow -slide-right d-lg-none" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <img src="../statics/img/slider1.jpg" class="col-6 d-block w-100 pr-0 pl-0" alt="...">
+              <img src="../statics/img/slider2.jpg" class="col-6 d-block w-100 pr-0 pl-0" alt="...">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <img src="../statics/img/slider3.jpg" class="col-6 d-block w-100 pr-0 pl-0" alt="...">
+              <img src="../statics/img/slider4.jpg" class="col-6 d-block w-100 pr-0 pl-0" alt="...">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <img src="../statics/img/slider5.jpg" class="col-6 d-block w-100 pr-0 pl-0" alt="...">
+              <img src="../statics/img/slider6.jpg" class="col-6 d-block w-100 pr-0 pl-0" alt="...">
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel2Controls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel2Controls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <div class="bg-warning text-center alert mb-0">
+        <h4 class="d-none d-lg-block"><br>Síguenos en <a href="https://www.instagram.com/herreria_y_vidrieria_artistica/?igshid=1vqqyc2vq5obj"><b>Instagram</b></a> <br> </h4>
+        <small class="d-lg-none">Síguenos en <a href="https://www.instagram.com/herreria_y_vidrieria_artistica/?igshid=1vqqyc2vq5obj"><b>Instagram</b></a></small>
+      </div>
+
+
+      <div class="overview scrollflow -pop">
+        <img src="../statics/img/overview1.jpg" class="overviewImageDark" alt="Responsive image">
+        <div class="overviewTextCentered row">
+          <div class="d-none d-lg-block col-12">
+            <h3 class="scrollflow -slide-bottom"><b>Estructuras y Herrería en general.</b></h3>
+            <p class="scrollflow -pop">Tenemos a su disposición una serie de servicios mas allá de herreria en general. Nuestros productos y servicios resultan en el mejor grado de calidad.</p>
+          </div>
+          <div class="d-lg-none col-12">
+            <small>Tenemos a su disposición una serie de servicios mas allá de herreria en general.</small>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="overview">
+        <div class="scrollflow -slide-right">
+          <img src="../statics/img/overview2.jpg" class="overviewImage" alt="Responsive image">
+          <div class="overviewTextCentered row">
+            <div class="d-none d-lg-block col-12">
+              <h3 class="scrollflow -pop"><b>Venta y Renta.</b></h3>
+              <p class="scrollflow -slide-top">De los mejores materiales de la más alta calidad disponible en el mercado.</p>
+            </div>
+            <div class="d-lg-none col-12">
+              <small>De los mejores materiales de la más alta calidad disponible en el mercado.</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    </main>
 
 
     <footer class="footer mt-auto bar-blue">
@@ -124,8 +245,12 @@
             </div>
 
             <div class="row justify-content-center mt-2 mb-4">
-              <img src="../statics/icons/facebook.svg" class="white-icon mr-2" width="50px">
-              <img src="../statics/icons/instagram.svg" class="white-icon ml-2" width="50px">
+              <a href="https://web.facebook.com/herreriayvidrieriaartistica/?_rdc=1&_rdr">
+                <img src="../statics/icons/facebook.svg" class="white-icon-hoverable mr-2" width="50px">
+              </a>
+              <a href="https://www.instagram.com/herreria_y_vidrieria_artistica/?igshid=1vqqyc2vq5obj">
+                <img src="../statics/icons/instagram.svg" class="white-icon-hoverable ml-2" width="50px">
+              </a>
             </div>
           </div>
 
@@ -133,5 +258,16 @@
         </div>
       </div>
     </footer>
+    <div class="floating-icons justify-content-center">
+      <div class="bg-warning icon-tooltip border border-danger">
+        <div class="text-center" role="alert">
+          <p class="pt-2"><b>¡Envíe un WhatsApp!</b></p>
+
+        </div>
+      </div>
+      <a href="https://wa.me/523414363155">
+        <img src="../statics/icons/whatsapp.svg" class="animated-icon" alt="whatsapp">
+      </a>
+    </div>
   </body>
 </html>
