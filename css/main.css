@@ -218,6 +218,9 @@
 .yellow-color{
   color: #FFCF00;
 }
+.red-color{
+  color: #E3170A;
+}
 
 a.instagram-image >img {
   transition: .3s ease;
